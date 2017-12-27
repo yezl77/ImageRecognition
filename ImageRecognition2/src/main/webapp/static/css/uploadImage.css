@@ -1,0 +1,56 @@
+/*初始化界面大小*/
+body{
+	font-size:14px;
+	margin:0 auto;
+	padding:0;
+}
+/*图片上传内容样式设计*/
+
+/*定义上传图片按钮*/
+.btUpload {
+	background: #e5eefd;
+	font-size: 1.8em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*定义图片显示格式，图片大小为240px*240px*/
+.imageWindow {
+	width: 240px;
+	height: 240px;
+	border: 10px solid #ccc;
+	font-size: 2em;
+	background: black;
+	color: white;
+}
+
+/*设置图片信息居中*/
+.imageMes {
+	margin: 10px auto;
+}
+
+/*定义图片信息的间距*/
+.mesHeight {
+	margin: 5px 0;
+}
+
+/*定义图片信息的字体*/
+.mesFont {
+	font-size: 1.3em;
+}
+
+/*定义控制表单大小*/
+.mesForm {
+	width: 220px;
+	height: 30px;
+}
+
+/*特别设计备注栏*/
+.mesSperical {
+	margin: 5px 50px 5px 0;
+}
+
+/*设置确定取消按钮*/
+.btWidth{
+	margin:10px;
+}

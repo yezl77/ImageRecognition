@@ -1,0 +1,115 @@
+/*初始化界面大小*/
+body{
+	font-size:14px;
+	margin:0;
+	padding:0;
+}
+
+/*顶部样式设计*/
+/*定义网页顶部信息*/
+.header {
+	background: #fff; /*白色背景*/
+	border-bottom: 3px solid #06c; /*蓝色底边框*/
+	margin: 0; /*与外部元素相距0px*/
+}
+
+/*定义平台名称*/
+#headerTitle {
+	color: #06c; /*深蓝色字体*/
+	font-size: 2em; /*定义字体大小为默认字体的2倍*/
+	font-weight: bold; /*粗体*/
+}
+
+/*定义欢迎登入信息*/
+#headerSignmes {
+	font-size: 1.5em;
+}
+
+/*定义退出设置*/
+#headerExit {
+	color: red;
+	margin: 0 15px 0 0;
+}
+
+/*菜单样式设计*/
+/*初始化菜单，使菜单贴住左上方*/
+.menu {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*初始化菜单*/
+.menuInit {
+	background: #e5eefd; /*背景为浅蓝色*/
+	padding: 0; /*组内元素相距为0*/
+	width: 240px; /*固定宽度大小为240px*/
+	height: 100%;
+}
+
+/*初始化菜单列表*/
+.menuList {
+	height: 46rem; /*定义菜单的长度为默认字体的48倍*/
+}
+
+/*设计菜单字体颜色及位置大小*/
+.menuControl {
+	font-size: 1.8em;
+	height: 2.5em;
+	margin: 0 auto;
+	color: black;
+	background: #e5eefd;
+}
+
+/*将不合规范的菜单子项规整化*/
+.menuEspCont {
+	margin: 0 10px;
+}
+
+/*内容样式设计*/
+/*定义上传图片按钮*/
+.uploadbt {
+	background-color: #e5eefd;
+	font-size: 1.8em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/*定义图片显示格式，图片大小为240px*240px*/
+.uploadimage {
+	width: 240px;
+	height: 240px;
+	border: 10px solid #ccc;
+	font-size: 15em;
+}
+
+/*定义图片信息显示格式*/
+.uploadimes {
+	margin: 80px auto;
+}
+
+/*定义图片信息的间距*/
+.mesheight {
+	margin: 5px 0;
+}
+
+/*定义图片信息的字体*/
+.mesfont {
+	font-size: 1.3em;
+}
+
+/*定义控制表单大小*/
+.mesform {
+	width: 150px;
+	height: 30px;
+}
+
+/*特别设计备注栏*/
+.messperical {
+	margin: 5px 50px 5px 0;
+}
+
+/*设置确定取消按钮*/
+.setbtWidth{
+	margin:5px 20px;
+}

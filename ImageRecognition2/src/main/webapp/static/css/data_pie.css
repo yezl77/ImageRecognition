@@ -1,0 +1,46 @@
+/*�����ݷֲ���ߵ���ʽ*/
+
+/*��ݵ����div��ʽ*/
+.myBody{
+	width:500px;
+	margin:20px auto;
+}
+
+/*�û�����ͼ����߾�*/
+.userPie{
+	margin:60px auto;
+}
+
+/*�û���������6��ʱ���������*/
+.tableRoll{
+	width:320px;
+	height:250px;
+	padding:10px 10px 10px 0;
+	overflow-x: auto; 
+	overflow-y: auto; 
+}
+
+/*����ͼ�����ı߽��߼���ȴ�С*/
+.tableData{
+	border: 0px; 
+	width:240px; 
+	height:160px; 
+	padding: 5px 0;
+}
+
+.tableData>tbody>tr>td, 
+.tableData>tbody>tr>th, 
+.tableData>tfoot>tr>td, 
+.tableData>tfoot>tr>th, 
+.tableData>thead>tr>td, 
+.tableData>thead>tr>th {
+	line-height:30px;
+	text-align:center;
+	border: 1px solid #000;
+}
+
+/*�����������д���*/
+.center{
+	text-align:center;
+}
+
